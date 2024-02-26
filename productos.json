@@ -1,7 +1,7 @@
 [
   { 
   "nombre1": "jalapeño, cilantro y lima" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "medio",
   "precio1": "$U123",
@@ -47,7 +47,7 @@
 },
 {
   "nombre1": "morrones" ,
-  "genre": "Merch" ,
+  "genre": ["Merch"] ,
   "tela": "nose",
   "talle": "S",
   "precio1": "$U333",
@@ -56,7 +56,7 @@
 },
 {
   "nombre1": "la gota siniestra" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "ultra",
   "precio1": "$U158",
@@ -65,7 +65,7 @@
 },
 {
   "nombre1": "carolina reaper y ajo" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "medio",
   "precio1": "$U185",
@@ -74,7 +74,7 @@
 },
 {
   "nombre1": "habanero chocolate y ajo negro" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "intermedio",
   "precio1": "$U581",
@@ -83,7 +83,7 @@
 },
 {
   "nombre1": "salsa de arándano y ghost pepper" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "bajo",
   "precio1": "$U518",
@@ -92,7 +92,7 @@
 },
 {
   "nombre1": "Pack navideño extremo" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "mix",
   "precio1": "$U815",
@@ -101,7 +101,7 @@
 },
 {
   "nombre1": "Pack navideño completo",
-  "genre": "salsa picante",
+  "genre": ["salsa picante"],
   "ingredientes": "no se no se no se nose",
   "picante1": "minx",
   "precio1": "$U851",
@@ -110,7 +110,7 @@
 },
 { 
   "nombre1": "jalapeño, cilantro y lima" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "medio",
   "precio1": "$U123",
@@ -119,7 +119,7 @@
 },
 {
   "nombre1": "habanero rojo y tomate" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "alto",
   "precio1": "$U231",
@@ -128,7 +128,7 @@
 },
 {
   "nombre1": "mango y mix de ajíes" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "intermedio",
   "precio1": "$U321",
@@ -137,7 +137,7 @@
 },
 {
   "nombre1": "carolina reaper y ajo" ,
-  "genre": "salsa picante" ,
+  "genre": ["salsa picante"] ,
   "ingredientes": "no se no se no se nose",
   "picante1": "medio",
   "precio1": "$U185",
