@@ -1,0 +1,147 @@
+[
+  { 
+  "nombre1": "jalapeño, cilantro y lima" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "medio",
+  "precio1": "$U123",
+  "imagen1": "/productos/jalap_cilantro_lima.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "habanero rojo y tomate" ,
+  "genre": ["salsa picante"] ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "alto",
+  "precio1": "$U231",
+  "imagen1": "/productos/habanero_tomate.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "mango y mix de ajíes" ,
+  "genre": ["salsa picante"] ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "intermedio",
+  "precio1": "$U321",
+  "imagen1": "/productos/mango-fondo-blanco.png",
+  "moneda": "Uru",
+  "id": "120914879"
+},
+{
+  "nombre1": "amigo del diablo" ,
+  "genre": ["Merch"] ,
+  "tela": "nose",
+  "talle": "X",
+  "precio1": "$U132",
+  "imagen1": "/productos/Amigo-del-diablo-reverso.jpg",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "negocio del picante" ,
+  "genre": ["Merch"] ,
+  "tela": "nose",
+  "talle": "XL",
+  "precio1": "$U312",
+  "imagen1": "/productos/Negocio-del-picante-reve.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "morrones" ,
+  "genre": "Merch" ,
+  "tela": "nose",
+  "talle": "S",
+  "precio1": "$U333",
+  "imagen1": "/productos/morrones.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "la gota siniestra" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "ultra",
+  "precio1": "$U158",
+  "imagen1": "/productos/gota_siniestra.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "carolina reaper y ajo" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "medio",
+  "precio1": "$U185",
+  "imagen1": "/productos/carolina_reaper_ajo.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "habanero chocolate y ajo negro" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "intermedio",
+  "precio1": "$U581",
+  "imagen1": "/productos/habanero_chocolate_ajo.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "salsa de arándano y ghost pepper" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "bajo",
+  "precio1": "$U518",
+  "imagen1": "/productos/arandanos_ghostpepper.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "Pack navideño extremo" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "mix",
+  "precio1": "$U815",
+  "imagen1": "/productos/pack_navideño.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "Pack navideño completo",
+  "genre": "salsa picante",
+  "ingredientes": "no se no se no se nose",
+  "picante1": "minx",
+  "precio1": "$U851",
+  "imagen1": "/productos/pack_completo.png",
+  "moneda": "Uru"
+},
+{ 
+  "nombre1": "jalapeño, cilantro y lima" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "medio",
+  "precio1": "$U123",
+  "imagen1": "/productos/jalap_cilantro_lima.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "habanero rojo y tomate" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "alto",
+  "precio1": "$U231",
+  "imagen1": "/productos/habanero_tomate.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "mango y mix de ajíes" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "intermedio",
+  "precio1": "$U321",
+  "imagen1": "/productos/mango-fondo-blanco.png",
+  "moneda": "Uru"
+},
+{
+  "nombre1": "carolina reaper y ajo" ,
+  "genre": "salsa picante" ,
+  "ingredientes": "no se no se no se nose",
+  "picante1": "medio",
+  "precio1": "$U185",
+  "imagen1": "/productos/carolina_reaper_ajo.png",
+  "moneda": "Uru"
+}
+]

@@ -1,0 +1,45 @@
+###
+GET http://localhost:1234/
+Content-Type: application/json
+
+###
+GET http://localhost:1234/products/120914879
+Content-Type: application/json
+
+###
+GET http://localhost:1234/products?genre=salsa&picante
+Content-Type: application/json
+
+###
+POST http://localhost:1234/products
+Content-Type: application/json
+
+{
+  "nombre1": "Esto es un producto de prueba" ,
+  "genre": ["Salsa picante"],
+  "ingredientes": "no se no se no se nose",
+  "picante1": "nose ",
+  "precio1": 5,
+  "imagen1": "https://img.freepik.com/vector-gratis/lindo-icono-personajes-navidad-aislado_1308-121667.jpg",
+  "moneda": ["Usd"]
+}
+
+###
+PUT http://localhost:1234/products/
+Content-Type: application/json
+// No funciona
+
+###
+PATCH http://localhost:1234/products/120914879
+Content-Type: application/json
+
+{
+  "precio1": 333,
+  "moneda": ["Usd"]
+}
+
+###
+DELETE http://localhost:1234/products/120914879
+Content-Type: application/json
+
+
