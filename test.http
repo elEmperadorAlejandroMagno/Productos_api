@@ -1,6 +1,6 @@
 
 ###
-GET http://localhost:1234/products?genre=merch
+GET http://localhost:1234/products?genre=
 Content-Type: application/json
 
 ###
@@ -20,11 +20,6 @@ Content-Type: application/json
   "imagen1": "https://img.freepik.com/vector-gratis/lindo-icono-personajes-navidad-aislado_1308-121667.jpg",
   "moneda": ["Usd"]
 }
-
-###
-PUT http://localhost:1234/products/
-Content-Type: application/json
-// No funciona
 
 ###
 PATCH http://localhost:1234/products/120914879
