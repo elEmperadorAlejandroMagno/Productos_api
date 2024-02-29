@@ -10,7 +10,7 @@ export class MovieController {
     res.json(products)
   }
   static async getById (req, res) {
-    const { id } = req.query
+    const { id } = req.params
     const product = await MovieModel.getById({ id })
     if (product) return res.json(product)
     res.status(404).json({message : 'Product not found'})

@@ -1,20 +1,21 @@
 import z from 'zod'
 
 const productSchema = z.object({
-  nombre1: z.string({
+  nombre: z.string({
     invalid_type_error: 'Product title must be a string',
     required_error: 'Product title is required.'
   }),
-  precio1: z.number().int().min(1).max(4000),
+  precio: z.number().int().min(1).max(4000),
   ingredientes: z.string(),
-  picante1: z.string(),
-  moneda: z.array(
-    z.enum(['Uru, "Ars', 'Usd']),
+  picante: z.string(),
+  moneda: z.string(
+  // moneda: z.array(
+  //   z.enum(['Uru, "Ars', 'Usd']),
   {
     required_error: 'moneda is required.',
-    invalid_type_error: 'moneda must be an array of enum moneda'
+    invalid_type_error: 'moneda must be a string'
   }),
-  imagen1: z.string().url({
+  imagen: z.string().url({
     message: 'Poster must be a valid URL'
   }),
   genre: z.array(

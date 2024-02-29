@@ -4,7 +4,7 @@ GET http://localhost:1234/products?genre=
 Content-Type: application/json
 
 ###
-GET http://localhost:1234/products/120914879
+GET http://localhost:1234/products/2
 Content-Type: application/json
 
 ###
@@ -12,26 +12,26 @@ POST http://localhost:1234/products
 Content-Type: application/json
 
 {
-  "nombre1": "Esto es un producto de prueba" ,
+  "nombre": "Esto es un producto de prueba" ,
   "genre": ["Salsa picante"],
   "ingredientes": "no se no se no se nose",
-  "picante1": "nose ",
-  "precio1": 5,
-  "imagen1": "https://img.freepik.com/vector-gratis/lindo-icono-personajes-navidad-aislado_1308-121667.jpg",
-  "moneda": ["Usd"]
+  "picante": "nose ",
+  "precio": 5,
+  "imagen": "https://img.freepik.com/vector-gratis/lindo-icono-personajes-navidad-aislado_1308-121667.jpg",
+  "moneda": "Usd"
 }
 
 ###
-PATCH http://localhost:1234/products/120914879
+PATCH http://localhost:1234/products/1
 Content-Type: application/json
 
 {
-  "precio1": 333,
-  "moneda": ["Usd"]
+  "precio": 333,
+  "moneda": "USD"
 }
 
 ###
-DELETE http://localhost:1234/products/120914879
+DELETE http://localhost:1234/products/7
 Content-Type: application/json
 
 
