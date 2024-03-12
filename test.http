@@ -1,6 +1,6 @@
 
 ###
-GET http://localhost:1234/products?genre=
+GET http://localhost:1234/products?type=salsa
 Content-Type: application/json
 
 ###
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 {
   "nombre": "Esto es un producto de prueba" ,
-  "genre": ["Salsa picante"],
+  "type": ["Salsa picante"],
   "ingredientes": "no se no se no se nose",
   "picante": "nose ",
   "precio": 5,

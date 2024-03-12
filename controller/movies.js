@@ -4,9 +4,8 @@ import { validatePartialProduct, validateProduct } from "../schema/products.js";
 
 export class MovieController {
   static async getAll (req, res) {
-    const { genre } = req.query
-    const products = await MovieModel.getAll({ genre })
-
+    const { type } = req.query
+    const products = await MovieModel.getAll({ type })
     res.json(products)
   }
   static async getById (req, res) {

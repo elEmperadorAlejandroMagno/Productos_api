@@ -13,9 +13,25 @@ const connection = await mysql.createConnection(config)
 
 
 export class MovieModel {
-  static async getAll ({ genre }) {
+  static async getAll ({ type }) {
     // Tarea filtrar por genero
-    
+    if (type) {
+      const lowerCaseType = type.toLowerCase()
+      // get type ids from database table using type names
+      const [types] = await connection.query(
+        'SELECT id, nombre FROM genre WHERE LOWER(nombre) = "salsa";',
+        [lowerCaseType]
+      );
+      // no type found
+      if (types.length === 0) return []
+
+      const [{ id }] = types
+      
+      const [products] = await connection.query(
+        'SELECT p.id, p.nombre, p.imagen, p.precio FROM product AS p inner join product_genre AS pg on p.id = pg.product_id WHERE pg.genre_id = ?;',[id]
+      );
+        return products
+    }
     const [products] = await connection.query(
       'SELECT id, nombre, precio, picante, ingredientes, moneda, imagen from product;'
     )
@@ -30,7 +46,7 @@ export class MovieModel {
   }
   static async create ({ input }) {
     const {
-      genre: genreInput, // genre is an array
+      type: typeInput, // type is an array
       nombre,
       precio,
       picante,
@@ -80,7 +96,7 @@ export class MovieModel {
   }
   static async update ({ id, input }) {
     const {
-      genre: genreInput, // genre is an array
+      type: typeInput, // type is an array
       nombre,
       precio,
       picante,
