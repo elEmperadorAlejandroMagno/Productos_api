@@ -19,7 +19,7 @@ export class MovieModel {
       const lowerCaseType = type.toLowerCase()
       // get type ids from database table using type names
       const [types] = await connection.query(
-        'SELECT id, nombre FROM genre WHERE LOWER(nombre) = "salsa";',
+        'SELECT id, nombre FROM genre WHERE LOWER(nombre) = "salsa";', // error- filtra solo por salsa
         [lowerCaseType]
       );
       // no type found
