@@ -1,147 +1,35 @@
 [
   { 
   "nombre": "jalapeño, cilantro y lima" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
+  "type": "salsa",
   "picante": "medio",
-  "precio": "$U123",
-  "imagen": "/productos/jalap_cilantro_lima.png",
-  "moneda": "Uru"
+  "precio": 123,
+  "imagen": "/productos/jalap_cilantro_lima.png"
 },
 {
   "nombre": "habanero rojo y tomate" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
+  "type": "salsa",
   "picante": "alto",
-  "precio": "$U231",
-  "imagen": "/productos/habanero_tomate.png",
-  "moneda": "Uru"
+  "precio": 231,
+  "imagen": "/productos/habanero_tomate.png"
 },
 {
   "nombre1": "mango y mix de ajíes" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
+  "type": "salsa",
   "picante": "intermedio",
-  "precio": "$U321",
-  "imagen": "/productos/mango-fondo-blanco.png",
-  "moneda": "Uru",
-  "id": "120914879"
+  "precio": 321,
+  "imagen": "/productos/mango-fondo-blanco.png"
 },
 {
   "nombre1": "amigo del diablo" ,
-  "type": ["Merch"] ,
-  "tela": "nose",
-  "talle": "X",
-  "precio": "$U132",
-  "imagen": "/productos/Amigo-del-diablo-reverso.jpg",
-  "moneda": "Uru"
+  "type": "merch",
+  "precio": 132,
+  "imagen": "/productos/Amigo-del-diablo-reverso.jpg"
 },
 {
   "nombre": "negocio del picante" ,
-  "type": ["Merch"] ,
-  "tela": "nose",
-  "talle": "XL",
-  "precio": "$U312",
-  "imagen": "/productos/Negocio-del-picante-reve.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "morrones" ,
-  "type": ["Merch"] ,
-  "tela": "nose",
-  "talle": "S",
-  "precio": "$U333",
-  "imagen": "/productos/morrones.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "la gota siniestra" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "ultra",
-  "precio": "$U158",
-  "imagen": "/productos/gota_siniestra.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "carolina reaper y ajo" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "medio",
-  "precio": "$U185",
-  "imagen": "/productos/carolina_reaper_ajo.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "habanero chocolate y ajo negro" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "intermedio",
-  "precio": "$U581",
-  "imagen": "/productos/habanero_chocolate_ajo.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "salsa de arándano y ghost pepper" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "bajo",
-  "precio": "$U518",
-  "imagen": "/productos/arandanos_ghostpepper.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "Pack navideño extremo" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "mix",
-  "precio": "$U815",
-  "imagen": "/productos/pack_navideño.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "Pack navideño completo",
-  "type": ["salsa picante"],
-  "ingredientes": "no se no se no se nose",
-  "picante": "minx",
-  "precio": "$U851",
-  "imagen": "/productos/pack_completo.png",
-  "moneda": "Uru"
-},
-{ 
-  "nombre": "jalapeño, cilantro y lima" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "medio",
-  "precio": "$U123",
-  "imagen": "/productos/jalap_cilantro_lima.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "habanero rojo y tomate" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "alto",
-  "precio": "$U231",
-  "imagen": "/productos/habanero_tomate.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "mango y mix de ajíes" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "intermedio",
-  "precio": "$U321",
-  "imagen": "/productos/mango-fondo-blanco.png",
-  "moneda": "Uru"
-},
-{
-  "nombre": "carolina reaper y ajo" ,
-  "type": ["salsa picante"] ,
-  "ingredientes": "no se no se no se nose",
-  "picante": "medio",
-  "precio": "$U185",
-  "imagen": "/productos/carolina_reaper_ajo.png",
-  "moneda": "Uru"
+  "type": "merch",
+  "precio": 312,
+  "imagen": "/productos/Negocio-del-picante-reve.png"
 }
 ]

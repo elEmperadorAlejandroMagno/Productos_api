@@ -4,6 +4,10 @@ GET http://localhost:1234/products?type=salsa
 Content-Type: application/json
 
 ###
+GET http://localhost:1234/products?limit=1
+Content-Type: application/json
+
+###
 GET http://localhost:1234/products/2
 Content-Type: application/json
 

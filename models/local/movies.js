@@ -4,11 +4,10 @@ import { randomUUID } from 'node:crypto'
 const products = readJSON('./productos.json')
 
 export class MovieModel {
-  static async getAll ({ genre }) {
-    if (genre) {
+  static async getAll ({ type }) {
+    if (type) {
       return products.filter(
-        product => product.genre.some(g => g.toLowerCase() == genre.toLowerCase())
-      )
+        product => product.type.toLowerCase() == type.toLowerCase())
     }
     return products
   }
